@@ -1,11 +1,25 @@
-img {
-  width: 100%;
+html, body { max-width: 100%; overflow-x: hidden; }
+
+#comingsoon {
+  font-family: 'Anton', sans-serif;
+  font-size: 75px;
 }
 
-@media screen and (min-width: 1100px) {
-  body {
-    width: 75%;
-    padding-left: 15%;
-  }
-  
+.button-text {
+  color: black;
 }
+
+.custom-top-padding {
+  padding-top: 30px;
+}
+
+.custom-bottom-padding {
+  padding-bottom: 100px;
+}
+
+#logo {
+  max-width: 100%;
+}
+
+
+
