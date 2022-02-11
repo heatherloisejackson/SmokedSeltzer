@@ -24,14 +24,35 @@
       <h1 id="comingsoon">COMING SOON</h1>
       <img src="assets/images/masterhead.png" id="logo" class="center">
       <p class="lead custom-top-padding">Register below to get on the waistlist.</p>
-      <p class="lead custom-bottom-padding">
+      <!-- <p class="lead custom-bottom-padding">
         <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white button-text">Touch It.</a>
-      </p>
+      </p> -->
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Touch it.</button>
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">Enter your information below to get on the SmokedSeltzer waitlist</h3>
+            </div>
+            <div class="modal-body">
+              <p>Name: <input type="text" class="newName" id="newName" value="newName"></p>
+              <p>Email: <input type="text" class="newEmail" id="newEmail" value="newEmail"></p>
+            </div>
+            <br>
+            <!-- no Form tag is needed, and also the 'input' with 'type=button' is replaced by the next 'a' tag -->
+            <a href="" id="contact-link">Submit</a>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="mt-auto text-white-50">
+      <p>A Chestsweater Enterprise</p>
       <p>Copyright SmokedSeltzer.com 2022</p>
     </footer>
   </div>
+
+
 
 </body>
 
