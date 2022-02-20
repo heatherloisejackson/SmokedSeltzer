@@ -6,7 +6,7 @@ contactLink.addEventListener("click", function () {
   var newName = document.getElementById("newName").value,
     newEmail = document.getElementById("newEmail").value,
     /* the subject variable holds the subject of the email, change its value per your requirement. */
-    subject = "I want to joing the SmokedSeltzer Waitlist!",
+    subject = "I want to join the SmokedSeltzer Waitlist!",
     /* the queryString variable holds the email's subject and body to be used in the href attribute of the 'a' tag. the '\n' character is used to make a new line and it must be encoded, along with other special characters as the space, in a valid URL format, we'll be using the built-in 'encodeURI' method for that task. */
     queryString =
       "?subject=" + subject + "&body=Name: " + newName + "\nEmail: " + newEmail,
