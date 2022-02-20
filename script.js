@@ -16,7 +16,6 @@ contactLink.addEventListener("click", function () {
   this.href = window.encodeURI("mailto:" + emailAddr + queryString);
   // just for testing to see the resulted href string. Delete this line in production phase.
   console.log(this.href);
-  console.log(err);
 });
 
 console.log("hello world");

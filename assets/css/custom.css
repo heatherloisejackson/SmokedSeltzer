@@ -22,14 +22,13 @@ html, body { max-width: 100%; overflow-x: hidden; }
 }
 
 .custom-footer {
-  position:fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+  padding-top: 80px;
 }
 
 .modal-content {
   color: #000;
 }
 
+.footer-text {
+  font-size: 10px;
+}
